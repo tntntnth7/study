@@ -27,10 +27,22 @@ repositories {
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
     compile('org.projectlombok:lombok')
+    /* org.springframework.boot:spring-boot-starter-data-jpa
+    * 스프링 부트용 spring data jpa 추상화 라이브러리
+    * 스프링 부트 버전에 맞춰 자동으로 JPA 라이브러리 버전을 맞춰준다
+    */
+    compile('org.springframework.boot:spring-boot-starter-data-jpa')
+    /* com.h2database:h2
+    * 인메모리 관계형 데이터베이스
+    * 별도 설치 없이 의존성만으로 관리 가능
+    * */
+    compile('com.h2database:h2')
     annotationProcessor('org.projectlombok:lombok')
 
     testCompile('org.springframework.boot:spring-boot-starter-test')
     testCompile('org.projectlombok:lombok')
     testAnnotationProcessor('org.projectlombok:lombok')
+
+
 
 }
