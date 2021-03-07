@@ -37,6 +37,7 @@ dependencies {
     * 별도 설치 없이 의존성만으로 관리 가능
     * */
     compile('com.h2database:h2')
+    compile('org.springframework.boot:spring-boot-starter-mustache')
     annotationProcessor('org.projectlombok:lombok')
 
     testCompile('org.springframework.boot:spring-boot-starter-test')
