@@ -1,29 +1,51 @@
 com/project/study/springboot/web/HelloController.java
  com.project.study.springboot.web.HelloController
-com/project/study/springboot/web/dto/PostsUpdateRequestDto.java
- com.project.study.springboot.web.dto.PostsUpdateRequestDto
- com.project.study.springboot.web.dto.PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder
-com/project/study/springboot/web/dto/HelloResponseDto.java
- com.project.study.springboot.web.dto.HelloResponseDto
-com/project/study/springboot/Application.java
- com.project.study.springboot.Application
-com/project/study/springboot/service/posts/PostsService.java
- com.project.study.springboot.service.posts.PostsService
-com/project/study/springboot/web/dto/PostsResponseDto.java
- com.project.study.springboot.web.dto.PostsResponseDto
+com/project/study/springboot/config/auth/LoginUser.java
+ com.project.study.springboot.config.auth.LoginUser
+com/project/study/springboot/config/auth/dto/SessionUser.java
+ com.project.study.springboot.config.auth.dto.SessionUser
 com/project/study/springboot/web/PostsApiController.java
  com.project.study.springboot.web.PostsApiController
-com/project/study/springboot/web/dto/PostsSaveRequestDto.java
- com.project.study.springboot.web.dto.PostsSaveRequestDto
- com.project.study.springboot.web.dto.PostsSaveRequestDto$PostsSaveRequestDtoBuilder
-com/project/study/springboot/domain/posts/Posts.java
- com.project.study.springboot.domain.posts.Posts
- com.project.study.springboot.domain.posts.Posts$PostsBuilder
+com/project/study/springboot/web/dto/HelloResponseDto.java
+ com.project.study.springboot.web.dto.HelloResponseDto
 com/project/study/springboot/domain/posts/PostsRepository.java
  com.project.study.springboot.domain.posts.PostsRepository
 com/project/study/springboot/web/indexController.java
  com.project.study.springboot.web.indexController
-com/project/study/springboot/domain/BaseTimeEntity.java
- com.project.study.springboot.domain.BaseTimeEntity
+com/project/study/springboot/domain/user/UserRepository.java
+ com.project.study.springboot.domain.user.UserRepository
+com/project/study/springboot/service/posts/PostsService.java
+ com.project.study.springboot.service.posts.PostsService
+com/project/study/springboot/web/dto/PostsResponseDto.java
+ com.project.study.springboot.web.dto.PostsResponseDto
+com/project/study/springboot/domain/user/Role.java
+ com.project.study.springboot.domain.user.Role
+com/project/study/springboot/web/dto/PostsSaveRequestDto.java
+ com.project.study.springboot.web.dto.PostsSaveRequestDto
+ com.project.study.springboot.web.dto.PostsSaveRequestDto$PostsSaveRequestDtoBuilder
+com/project/study/springboot/domain/user/User.java
+ com.project.study.springboot.domain.user.User
+ com.project.study.springboot.domain.user.User$UserBuilder
+com/project/study/springboot/domain/posts/Posts.java
+ com.project.study.springboot.domain.posts.Posts
+ com.project.study.springboot.domain.posts.Posts$PostsBuilder
+com/project/study/springboot/web/dto/PostsUpdateRequestDto.java
+ com.project.study.springboot.web.dto.PostsUpdateRequestDto
+ com.project.study.springboot.web.dto.PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder
 com/project/study/springboot/web/dto/PostsListResponseDto.java
  com.project.study.springboot.web.dto.PostsListResponseDto
+com/project/study/springboot/config/auth/LoginUserArgumentResolver.java
+ com.project.study.springboot.config.auth.LoginUserArgumentResolver
+com/project/study/springboot/Application.java
+ com.project.study.springboot.Application
+com/project/study/springboot/domain/BaseTimeEntity.java
+ com.project.study.springboot.domain.BaseTimeEntity
+com/project/study/springboot/config/WebConfig.java
+ com.project.study.springboot.config.WebConfig
+com/project/study/springboot/config/auth/SecurityConfig.java
+ com.project.study.springboot.config.auth.SecurityConfig
+com/project/study/springboot/config/auth/dto/OAuthAttributes.java
+ com.project.study.springboot.config.auth.dto.OAuthAttributes
+ com.project.study.springboot.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder
+com/project/study/springboot/config/auth/CustomOAuth2UserService.java
+ com.project.study.springboot.config.auth.CustomOAuth2UserService
