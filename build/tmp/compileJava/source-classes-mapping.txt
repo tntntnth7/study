@@ -36,8 +36,8 @@ com/project/study/springboot/web/dto/PostsListResponseDto.java
  com.project.study.springboot.web.dto.PostsListResponseDto
 com/project/study/springboot/config/auth/LoginUserArgumentResolver.java
  com.project.study.springboot.config.auth.LoginUserArgumentResolver
-com/project/study/springboot/Application.java
- com.project.study.springboot.Application
+com/project/study/springboot/config/auth/CustomOAuth2UserService.java
+ com.project.study.springboot.config.auth.CustomOAuth2UserService
 com/project/study/springboot/domain/BaseTimeEntity.java
  com.project.study.springboot.domain.BaseTimeEntity
 com/project/study/springboot/config/WebConfig.java
@@ -47,5 +47,7 @@ com/project/study/springboot/config/auth/SecurityConfig.java
 com/project/study/springboot/config/auth/dto/OAuthAttributes.java
  com.project.study.springboot.config.auth.dto.OAuthAttributes
  com.project.study.springboot.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder
-com/project/study/springboot/config/auth/CustomOAuth2UserService.java
- com.project.study.springboot.config.auth.CustomOAuth2UserService
+com/project/study/springboot/config/JpaConfig.java
+ com.project.study.springboot.config.JpaConfig
+com/project/study/springboot/Application.java
+ com.project.study.springboot.Application

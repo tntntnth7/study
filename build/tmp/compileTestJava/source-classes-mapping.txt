@@ -1,4 +1,10 @@
 com/project/study/springboot/web/dto/HelloResponseDtoTest.java
  com.project.study.springboot.web.dto.HelloResponseDtoTest
+com/project/study/springboot/web/domain/posts/PostsRepositoryTest.java
+ com.project.study.springboot.web.domain.posts.PostsRepositoryTest
+com/project/study/springboot/web/PostsApiControllerTest.java
+ com.project.study.springboot.web.PostsApiControllerTest
+com/project/study/springboot/web/IndexControllerTest.java
+ com.project.study.springboot.web.IndexControllerTest
 com/project/study/springboot/web/HelloControllerTest.java
  com.project.study.springboot.web.HelloControllerTest
